@@ -1,5 +1,10 @@
 my
     text hello;  This is USER-Production Enviroment 
+    
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8560/eureka
 spring
      datasource
          url jdbcmysqllocalhost3306mysql_maindb_Production
