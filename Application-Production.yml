@@ -4,7 +4,7 @@ my
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8560/eureka
+      defaultZone: http://172.16.13.129:8560/eureka
 spring
      datasource
          url jdbcmysqllocalhost3306mysql_maindb_Production
