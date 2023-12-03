@@ -6,11 +6,11 @@ eureka:
     serviceUrl:
       defaultZone: http://172.16.13.129:8560/eureka
 spring
-     datasource
-         url jdbcmysqllocalhost3306mysql_maindb_Production
-         username root
-         password 123456
-         driverclassname com.mysql.cj.jdbc.Driver
+  datasource:
+    url: jdbc:mysql://172.16.13.129:3306/mysql_maindb1
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
        jpa
           hibernate
             ddl-auto update
